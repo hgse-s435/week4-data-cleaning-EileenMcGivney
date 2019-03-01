@@ -1,0 +1,278 @@
+
+
+13
+
+system called gurututor [30]. this project also addresses some
+of the scalability concerns by replacing expensive research-grade
+eye tracking with cost-effective cots eye tracking (e.g., the eye
+tribe or tobii eyex) and provides evidence for real-world
+generalizability by collecting data in classrooms rather than the
+lab. we recently tested our implementation on 135 students (total)
+in a noisy computer-enabled high-school classroom where eyegaze of entire classes of students was collected during their
+normal class periods [20]. using a similar approach to the present
+work, we used the data to build and validate a studentindependent gaze-based mind wandering detector. the resultant
+mind wandering detection accuracy (f1 of 0.59) was substantially
+greater than chance (f1 of 0.24) and outperformed earlier work on
+the same domain [21]. the next step is to develop interventions
+that redirect attention and correct learning deficiencies
+attributable to mind wandering and to test the interventions in
+real-world environments. by doing so, we hope to advance our
+foundational vision of developing next-generation technologies
+that enhance the process and products of learning by “attending
+to attention.”
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+
+[11]
+
+[12]
+figure 3: guru tutor interface overlaid with eye-gaze
+obtained via the eyetribe
+
+[13]
+
+6. acknowledgements
+this research was supported by the national science foundation
+(nsf) (drl 1235958 and iis 1523091). the authors are grateful
+to kris kopp and jenny wu for their contributions to the study.
+any opinions, findings and conclusions, or recommendations
+expressed in this paper are those of the authors and do not
+necessarily reflect the views of nsf.
+
+[14]
+
+[15]
+
+7. references
+[1] anderson, j.r. 2002. spanning seven orders of magnitude:
+a challenge for cognitive modeling. cognitive science, 26
+(1), 85-112.
+[2] baird, b., smallwood, j., mrazek, m.d., kam, j.w.,
+franklin, m.s. and schooler, j.w. 2012. inspired by
+distraction mind wandering facilitates creative incubation.
+psychological science, 23 (10), 1117-1122.
+[3] bixler, r. and d'mello, s.k. 2016. automatic gaze-based
+user-independent detection of mind wandering during
+computerized reading. user modeling & user-adapted
+interaction, 26, 33-68.
+[4] boys, c.v. 1895. soap bubbles, their colours and the forces
+which mold them. society for promoting christian
+knowledge.
+[5] conati, c., aleven, v. and mitrovic, a. 2013. eye-tracking
+for student modelling in intelligent tutoring systems. in
+sottilare, r., graesser, a., hu, x. and holden, h. eds.
+design recommendations for intelligent tutoring systems -
+
+[16]
+
+[17]
+
+[18]
+
+[19]
+
+volume 1: learner modeling, army research laboratory,
+orlando, fl.
+conati, c. and merten, c. 2007. eye-tracking for user
+modeling in exploratory learning environments: an
+empirical evaluation. knowledge-based systems, 20 (6),
+557-574.
+d'mello, s., olney, a., williams, c. and hays, p. 2012.
+gaze tutor: a gaze-reactive intelligent tutoring system.
+international journal of human-computer studies, 70 (5),
+377-398.
+d'mello, s.k. 2016. giving eyesight to the blind: towards
+attention-aware aied. international journal of artificial
+intelligence in education, 26 (2), 645-659.
+d'mello, s.k., blanchard, n., baker, r., ocumpaugh, j. and
+brawner, k. 2014. i feel your pain: a selective review of
+affect-sensitive instructional strategies. in sottilare, r.,
+graesser, a., hu, x. and goldberg, b. eds. design
+recommendations for adaptive intelligent tutoring
+systems: adaptive instructional strategies (volume 2), us
+army research laboratory, orlando, fl.
+d'mello, s.k., kopp, k., bixler, r. and bosch, n. 2016.
+attending to attention: detecting and combating mind
+wandering during computerized reading in extended
+abstracts of the acm sigchi conference on human
+factors in computing systems (chi 2016), acm, new
+york.
+drummond, j. and litman, d. 2010. in the zone: towards
+detecting student zoning out using supervised machine
+learning. in aleven, v., kay, j. and mostow, j. eds.
+intelligent tutoring systems., springer-verlag, berlin /
+heidelberg.
+eastwood, j.d., frischen, a., fenske, m.j. and smilek, d.
+2012. the unengaged mind: defining boredom in terms of
+attention. perspectives on psychological science, 7 (5), 482495.
+faber, m., bixler, r. and d'mello, s.k. in press. an
+automated behavioral measure of mind wandering during
+computerized reading. behavior research methods.
+franklin, m.s., broadway, j.m., mrazek, m.d., smallwood,
+j. and schooler, j.w. 2013. window to the wandering mind:
+pupillometry of spontaneous thought while reading. the
+quarterly journal of experimental psychology, 66 (12),
+2289-2294.
+gluck, k.a., anderson, j.r. and douglass, s.a. 2000.
+broader bandwidth in student modeling: what if its were
+“eye” ts? in gauthier, c., frasson, c. and vanlehn, k. eds.
+proceedings of the 5th international conference on
+intelligent tutoring systems, springer, berlin.
+graesser, a., lu, s., olde, b., cooper-pye, e. and whitten,
+s. 2005. question asking and eye tracking during cognitive
+disequilibrium: comprehending illustrated texts on devices
+when the devices break down. memory and cognition, 33,
+1235-1247.
+hanley, j.a. and mcneil, b.j. 1982. the meaning and use
+of the area under a receiver operating characteristic (roc)
+curve. radiology, 143 (1), 29-36.
+harley, j.m., lajoie, s.p., frasson, c. and hall, n.c. in
+press. developing emotion-aware, advanced learning
+technologies: a taxonomy of approaches and features.
+international journal of artificial intelligence in education.
+hegarty, m. and just, m. 1993. constructing mental models
+of machines from text and diagrams. journal of memory and
+language, 32 (6), 717-742.
+
+
+
+14
+
+[20] hutt, s., mills, c., bosch, n., krasich, k., brockmole, j.r.
+and d'mello, s.k. in review. out of the fr-eye- ing pan:
+towards gaze-based models of attention during learning
+with technology in the classroom.
+[21] hutt, s., mills, c., white, s., donnelly, p.j. and d’mello,
+s.k. 2016. the eyes have it: gaze-based detection of mind
+wandering during learning with an intelligent tutoring
+system. in proceedings of the 9th international conference
+on educational data mining (edm 2016), international
+educational data mining society.
+[22] jaques, n., conati, c., harley, j.m. and azevedo, r. year.
+predicting affect from gaze data during interaction with an
+intelligent tutoring system. in intelligent tutoring systems,
+(2014), springer, 29-38.
+[23] kardan, s. and conati, c. 2012. exploring gaze data for
+determining user learning with an interactive simulation. in
+carberry, s., weibelzahl, s., micarelli, a. and semeraro, g.
+eds. proceedings of the 20th international conference on
+user modeling, adaptation, and personalization (umap
+2012), springer, berlin.
+[24] killingsworth, m.a. and gilbert, d.t. 2010. a wandering
+mind is an unhappy mind. science, 330 (6006), 932-932.
+[25] kintsch, w. 1998. comprehension: a paradigm for
+cognition. cambridge university press, new york.
+[26] kopp, k., d’mello, s. and mills, c. 2015. influencing the
+occurrence of mind wandering while reading. consciousness
+and cognition, 34 (1), 52-62.
+[27] mills, c. and d’mello, s.k. 2015. toward a real-time (day)
+dreamcatcher: detecting mind wandering episodes during
+online reading. in romero, c., pechenizkiy, m., boticario,
+j. and santos, o. eds. proceedings of the 8th international
+conference on educational data mining (edm 2015),
+international educational data mining society.
+[28] mooneyham, b.w. and schooler, j.w. 2013. the costs and
+benefits of mind-wandering: a review. canadian journal of
+experimental psychology/revue canadienne de psychologie
+expérimentale, 67 (1), 11.
+[29] muir, m. and conati, c. 2012. an analysis of attention to
+student–adaptive hints in an educational game. in cerri,
+s.a., clancey, w.j., papadourakis, g. and panourgia, k.
+eds. proceedings of the international conference on
+intelligent tutoring systems, springer, berlin.
+[30] olney, a., d'mello, a., person, n., cade, w., hays, p.,
+williams, c., lehman, b. and graesser, a. 2012. guru: a
+computer tutor that models expert human tutors. in cerri, s.,
+clancey, w., papadourakis, g. and panourgia, k. eds.
+proceedings of the 11th international conference on
+intelligent
+tutoring
+systems,
+springer-verlag,
+berlin/heidelberg.
+[31] olney, a., risko, e.f., d'mello, s.k. and graesser, a.c.
+2015. attention in educational contexts: the role of the
+learning task in guiding attention. in fawcett, j., risko, e.f.
+and kingstone, a. eds. the handbook of attention, mit
+press, cambridge, ma.
+[32] pham, p. and wang, j. 2016. adaptive review for mobile
+mooc learning via implicit physiological signal sensing.
+in proceedings of the 18th acm international conference
+on multimodal interaction (icmi 2016), acm, new york,
+ny.
+[33] pham, p. and wang, j. 2015. attentivelearner: improving
+mobile mooc learning via implicit heart rate tracking. in
+international conference on artificial intelligence in
+education, springer, berlin heidelberg.
+
+[34] randall, j.g., oswald, f.l. and beier, m.e. 2014. mindwandering, cognition, and performance: a theory-driven
+meta-analysis of attention regulation. psychological
+bulletin, 140 (6), 1411-1431.
+[35] rapp, d.n. 2006. the value of attention aware systems in
+educational settings. computers in human behavior, 22 (4),
+603-614.
+[36] rayner, k. 1998. eye movements in reading and information
+processing: 20 years of research. psychological bulletin, 124
+(3), 372-422.
+[37] reichle, e.d., reineberg, a.e. and schooler, j.w. 2010. eye
+movements during mindless reading. psychological science,
+21 (9), 1300.
+[38] risko, e.f., buchanan, d., medimorec, s. and kingstone, a.
+2013. everyday attention: mind wandering and computer
+use during lectures. computers & education, 68 (1), 275283.
+[39] roda, c. and thomas, j. 2006. attention aware systems:
+theories, applications, and research agenda. computers in
+human behavior, 22 (4), 557-587.
+[40] rowe, j., mott, b., mcquiggan, s., robison, j., lee, s. and
+lester, j. year. crystal island: a narrative-centered learning
+environment for eighth grade microbiology. in workshop on
+intelligent educational games at the 14th international
+conference on artificial intelligence in education,
+brighton, uk, (2009), 11-20.
+[41] shute, v.j., ventura, m., bauer, m. and zapata-rivera, d.
+2009. melding the power of serious games and embedded
+assessment to monitor and foster learning: flow and grow.
+in ritterfeld, u., cody, m. and vorderer, p. eds. serious
+games: mechanisms and effects, routledge, taylor and
+francis, mahwah, nj.
+[42] sibert, j.l., gokturk, m. and lavine, r.a. 2000. the reading
+assistant: eye gaze triggered auditory prompting for reading
+remediation. in proceedings of the 13th annual acm
+symposium on user interface software and technology,
+acm, new york, ny.
+[43] smallwood, j., davies, j.b., heim, d., finnigan, f.,
+sudberry, m., o'connor, r. and obonsawin, m. 2004.
+subjective experience and the attentional lapse: task
+engagement and disengagement during sustained attention.
+consciousness and cognition, 13 (4), 657-690.
+[44] smallwood, j., fishman, d.j. and schooler, j.w. 2007.
+counting the cost of an absent mind: mind wandering as an
+underrecognized influence on educational performance.
+psychonomic bulletin & review, 14 (2), 230-236.
+[45] smallwood, j. and schooler, j.w. 2015. the science of mind
+wandering: empirically navigating the stream of
+consciousness. annu. rev. psychol, 66, 487-518.
+[46] stewart, a., bosch, p., chen, h., donnelly, p.j. and
+d’mello, s.k. 2016. where's your mind at? video-based
+mind wandering detection during film viewing. in aroyo,
+l., d'mello, s., vassileva, j. and blustein, j. eds.
+proceedings of the 2016 acm on international conference
+on user modeling, adaptation, & personalization (acm
+umap 2016), acm, new york.
+[47] szpunar, k.k., khan, n.y. and schacter, d.l. 2013.
+interpolated memory tests reduce mind wandering and
+improve learning of online lectures. proceedings of the
+national academy of sciences, 110 (16), 6313-6317.
+[48] wang, h., chignell, m. and ishizuka, m. 2006. empathic
+tutoring software agents using real-time eye tracking. in
+proceedings of the 2006 symposium on eye tracking
+research &applications, acm, new york.
+

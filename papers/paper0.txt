@@ -1,0 +1,106 @@
+zone out no more: mitigating mind wandering during
+computerized reading
+sidney k. d’mello, caitlin mills, robert bixler, & nigel bosch
+university of notre dame
+118 haggar hall
+notre dame, in 46556, usa
+sdmello@nd.edu
+
+abstract
+mind wandering, defined as shifts in attention from task-related
+processing to task-unrelated thoughts, is a ubiquitous
+phenomenon that has a negative influence on performance and
+productivity in many contexts, including learning. we propose
+that next-generation learning technologies should have some
+mechanism to detect and respond to mind wandering in real-time.
+towards this end, we developed a technology that automatically
+detects mind wandering from eye-gaze during learning from
+instructional texts. when mind wandering is detected, the
+technology intervenes by posing just-in-time questions and
+encouraging re-reading as needed. after multiple rounds of
+iterative refinement, we summatively compared the technology to
+a yoked-control in an experiment with 104 participants. the key
+dependent variable was performance on a post-reading
+comprehension assessment. our results suggest that the
+technology was successful in correcting comprehension deficits
+attributed to mind wandering (d = .47 sigma) under specific
+conditions, thereby highlighting the potential to improve learning
+by “attending to attention.”
+
+keywords
+mind wandering; gaze tracking; student modeling; attentionaware.
+
+1. introduction
+despite our best efforts to write a clear and engaging paper,
+chances are high that within the next 10 pages you might fall prey
+to what is referred to as zoning out, daydreaming, or mind
+wandering [45]. despite your best intention to concentrate on our
+paper, at some point your attention might drift away to unrelated
+thoughts of lunch, childcare, or an upcoming trip. this prediction
+is not based on some negative or cynical opinion of the
+reader/reviewer (we read and review papers too), but on what is
+known about attentional control, vigilance, and concentration
+while individuals are engaged in complex comprehension
+activities, such as reading for understanding.
+one recent study tracked mind wandering of 5,000 individuals
+from 83 countries with a smartphone app that prompted people
+with thought-probes at random intervals throughout the day [24].
+people reported mind wandering for 46.9% of the prompts, which
+confirmed lab studies on the pervasiveness of mind wandering
+(see [45] for a review). mind wandering is more than merely
+incidental; a recent meta-analysis of 88 samples indicated a
+negative correlation between mind wandering and performance
+across a variety of tasks [34], a correlation which increases with
+task complexity. when compounded with its high frequency,
+mind wandering can have serious consequences on the
+performance and productivity of society at large.
+
+of learning with technology. traditional learning technologies
+rely on the assumption that students are attending to the learning
+session, although this is not always the case. for example, it has
+been estimated that students mind wander approximately 40% of
+the time when engaging with online lectures [38], which are an
+important component of moocs. some advanced technologies
+do aim to detect and respond to affective states like boredom, but
+evidence for their effectiveness is still equivocal (see [9] for a
+review). further, boredom is related to but not the same as
+attention [12]. there are technologies that aim to prevent mind
+wandering by engendering a highly immersive learning
+experience and have achieved some success in this regard [40,
+41]. but what is to be done when attentional focus inevitably
+wanes as the session progresses and the novelty of the system and
+content fades?
+our central thesis is that next-generation learning technologies
+should include mechanisms to model and respond to learners’
+attention in real-time [8]. such attention-aware technologies can
+model various aspects of learner attention (e.g., divided attention,
+alternating attention). here, we focus on detecting and mitigating
+mind wandering, a quintessential signal of waning engagement.
+we situate our work in the context of reading because reading is
+a common activity shared across multiple learning technologies,
+thereby increasing the generalizability of our results. further,
+students mind wander approximately 30% of the time during
+computerized reading [44]. and although mind wandering can
+facilitate certain cognitive processes like future planning and
+divergent thinking [2, 28], it negatively correlates with
+comprehension and learning (reviewed in [31, 45]), suggesting
+that it is important to address mind wandering during learning.
+towards this end, we developed and validated a closed-loop
+attention-aware learning technology that combines a machinelearned mind wandering detector with a real-time interpolated
+testing and re-study intervention. our attention-aware technology
+works as follows. learners read a text on a computer screen using
+a self-paced screen-by-screen (also called page-by-page) reading
+paradigm. we track eye-gaze during reading using a remote eye
+tracker that does not restrict head movements. we focus on eyegaze for mind wandering detection due to decades of research
+suggesting a tight coupling between attentional focus and eye
+movements during reading [36]. when mind wandering is
+detected, the system intervenes in an attempt to redirect
+attentional focus and correct any comprehension deficits that
+might arise due to mind wandering. the interventions consist of
+asking comprehension question on pages where mind wandering
+was detected and providing opportunities to re-read based on
+learners’ responses. in this paper, we discuss the mind wandering
+
+mind wandering is also unfortunately an under-addressed
+problem in education and is yet to be deeply studied in the context
+

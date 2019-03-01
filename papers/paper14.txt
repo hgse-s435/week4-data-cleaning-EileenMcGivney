@@ -1,0 +1,122 @@
+
+
+103
+
+epistemic network analysis and topic modeling for chat
+data from collaborative learning environment
+zhiqiang cai
+
+brendan eagan
+
+nia m. dowell
+
+the university of memphis
+365 innovation drive, suite 410
+memphis, tn, usa
+
+university of wisconsin-madison
+1025 west johnson street
+madison, wi, usa
+
+the university of memphis
+365 innovation drive, suite 410
+memphis, tn, usa
+
+zcai@memphis.edu
+
+eaganb@gmail.com
+
+niadowell@gmail.com
+
+james w. pennebaker
+
+david w. shaffer
+
+arthur c. graesser
+
+university of texas-austin
+116 inner campus dr stop g6000
+austin, tx, usa
+
+university of wisconsin-madison
+1025 west johnson street
+madison, wi, usa
+
+the university of memphis
+365 innovation drive, suite 403
+memphis, tn, usa
+
+pennebaker@utexas.edu
+
+dws@education.wisc.edu
+
+art.graesser@gmail.com
+
+abstract
+this study investigates a possible way to analyze chat data from
+collaborative learning environments using epistemic network
+analysis and topic modeling. a 300-topic general topic model
+built from tasa (touchstone applied science associates) corpus was used in this study. 300 topic scores for each of the 15,670
+utterances in our chat data were computed. seven relevant topics
+were selected based on the total document scores. while the aggregated topic scores had some power in predicting students’
+learning, using epistemic network analysis enables assessing the
+data from a different angle. the results showed that the topic
+score based epistemic networks between low gain students and
+high gain students were significantly different (𝑡 = 2.00). overall,
+the results suggest these two analytical approaches provide complementary information and afford new insights into the processes
+related to successful collaborative interactions.
+
+keywords
+chat; collaborative learning; topic modeling; epistemic network
+analysis
+
+1. introduction
+collaborative learning is a special form of learning and interaction
+that affords opportunities for groups of students to combine cognitive resources and synchronously or asynchronously participate in
+tasks to accomplish shared learning goals [15; 20]. collaborative
+learning groups can range from a pair of learners (called a dyad),
+to small groups (3-5 learners), to classroom learning (25-35 learners), and more recently large-scale online learning environments
+with hundreds or even thousands of students [5; 22]. the collaborative process provides learners with a more efficient learning
+experience and improves learners’ collaborative learning skills,
+which are critical competencies for students [14]. members in a
+team are different in many ways. they have their own experience,
+knowledge, skills, and approaches to learning. a student in a col-
+
+laborative learning environment can take other students’ views
+and ideas about the information provided in the learning material.
+the ideas coming out of the team can then be integrated as a
+deeper understanding of the material, or a better solution to a
+problem.
+traditional collaborative learning occurred in the form of face to
+face group discussion or problem solving. as the internet and
+learning technologies develop, online collaborative learning environments come out and are playing more and more important
+roles. for example, moocs (massive open online courses) have
+drawn massive number of learners. learners in moocs are connected by the internet and can easily interact with each other using
+various types of tools, such as forums, blogs and social networks
+[23]. these digitized environments make it possible to track the
+learning processes in collaborative learning environments in
+greater detail.
+communication is one of the main factors that differentiates collaborative learning from individual learning [4; 6; 9]. as such,
+chats from collaborative learning environments provide rich data
+that contains information about the dynamics in a learning process. understanding massive chat data from collaborative learning
+environments is interesting and challenging. many tools have
+been invented and used in chat data analysis, such as liwc (linguistic inquiry and word count) [12], coh-metrix [10], and topic
+modeling, just to name a few. epistemic network analysis (ena)
+has been playing a unique role in analyzing chat data from epistemic games [18]. ena is rooted in a specific theory of learning:
+the epistemic frame theory, in which the collection of skill,
+knowledge, identity, value and epistemology (skive) forms an
+epistemic frame. a critical theoretical assumption of ena is that
+the connections between the elements of epistemic frames are
+critical for learning, not their presence in isolation. the online
+ena toolkit allows users to analyze chat data by comparing the
+connections within the epistemic networks derived from chats.
+ena visualization displays the clustering of learners and groups
+and the network connections of individual learners and groups.
+ena requires coded data which has traditionally relied on hand
+coded data sets or classifiers that rely on regular expression mapping. combining topic modeling with ena will provide a new
+mode of preparing data sets for analysis using ena.
+in this study, we used a combination of topic modeling and ena
+to analyze chat data to see if we could detect differences between
+the connections made by students with high learning gains versus
+students with low learning gains. incorporating topic modeling
+
